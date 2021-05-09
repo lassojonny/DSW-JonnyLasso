@@ -1,0 +1,162 @@
+body {
+    margin: 40px;
+}
+
+.sidebar {
+    grid-area: sidebar;
+}
+
+.sidebar2 {
+    grid-area: sidebar2;
+}
+
+.content {
+    grid-area: content;
+    min-width: 650px;
+}
+
+.header {
+    grid-area: header;
+}
+
+.footer {
+    grid-area: footer;
+}
+
+.wrapper {
+    background-color: #fff;
+    color: #444;
+}
+
+.wrapper {
+    display: grid;
+    grid-gap: 1em;
+    grid-template-areas: "header" "sidebar" "content" "sidebar2" "footer"
+}
+
+@media only screen and (min-width: 500px) {
+    .wrapper {
+        grid-template-columns: 20% auto;
+        grid-template-areas: "header   header" "sidebar  content" "sidebar2 sidebar2" "footer   footer";
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .wrapper {
+        grid-gap: 20px;
+        grid-template-columns: 240px;
+        grid-template-areas: "header  header  header" "sidebar content sidebar2" "footer  footer  footer";
+        max-width: auto;
+    }
+}
+
+.box {
+    background-color: #444;
+    color: #fff;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 150%;
+}
+
+.header,
+.footer {
+    background-color: #999;
+}
+
+.sidebar2 {
+    background-color: #ccc;
+    color: #444;
+    max-width: 400px;
+}
+
+.header {
+    font-size: 30px;
+}
+
+.menu {
+    color: #fff;
+    text-decoration: none;
+}
+
+.timeline {
+    color: #000;
+    text-decoration: none;
+}
+
+.negrita {
+    font-weight: bold;
+}
+
+.ulm {
+    list-style-type: none;
+    margin: 0;
+    padding: 5px 0px 0 15px;
+}
+
+img {
+    width: 500px;
+    display: block;
+    margin: auto;
+}
+
+.imgf {
+    margin: 10px;
+    width: 200px;
+}
+
+.title {
+    text-align: center;
+}
+
+table,
+td,
+th {
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th,
+td {
+    padding: 15px;
+}
+
+
+/* TimeLine */
+
+.programa li {
+    clear: both;
+    overflow: hidden;
+    padding-left: 1rem;
+    position: relative;
+    font-size: 20px;
+}
+
+.hora {
+    float: left;
+    text-align: right;
+    color: #767676;
+    font-family: Poppins, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 2.4rem;
+    margin-right: 1.5rem;
+}
+
+.titulo {
+    float: left;
+    color: #000;
+    font-family: Poppins, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 2.4rem;
+    margin: 0 10px 0 0;
+}
+
+.recurso {
+    margin: 0 0 15px 0px;
+}

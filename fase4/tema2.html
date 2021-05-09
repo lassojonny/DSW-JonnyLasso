@@ -1,0 +1,139 @@
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+    <title>Etiquetas Básicas de HTML, atributos y valores</title>
+
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+
+    <link href="assets/css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <header id="header" class="fixed-top header-inner-pages">
+        <div class="container d-flex align-items-center justify-content-between">
+            <h1 class="logo"><a href="index.html">Etiquetas Básicas HTML</a></h1>
+            <nav id="navbar" class="navbar">
+                <ul>
+                    <li><a class="nav-link scrollto " href="index.html">Inicio</a></li>
+                    <li class="dropdown"><a href="#"><span>Temas</span></a>
+                        <ul>
+                            <li><a href="tema1.html">Tema 1</a></li>
+                            <li><a href="tema2.html">Tema 2</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown"><a href="#"><span>Recursos Digitales</span></a>
+                        <ul>
+                            <li><a href="recurso1.html">Recurso 1</a></li>
+                            <li><a href="recurso2.html">Recurso 2</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown"><a href="#"><span>Aprendizaje</span></a>
+                        <ul>
+                            <li><a href="aprendizaje1.html">Aprendizaje 1</a></li>
+                            <li><a href="aprendizaje2.html">Aprendizaje 2</a></li>
+                        </ul>
+                    </li>
+                    <li><a class="nav-link scrollto" href="autor.html">Autor</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main id="main">
+        <section id="breadcrumbs" class="breadcrumbs">
+            <div class="container">
+                <h2>Tema 2</h2>
+            </div>
+        </section>
+
+        <section id="blog" class="blog">
+            <div class="container" data-aos="fade-up">
+                <div class="row">
+                    <div class="col-lg-8 entries">
+                        <article class="entry">
+                            <h3>Atributos HTML</h3>
+                            <p>Los elementos en HTML tienen atributos; estos son valores adicionales que configuran los elementos o ajustan su comportamiento de diversas formas para cumplir los criterios de los usuarios.</p>
+                            <table>
+                                <tr>
+                                    <td>Nombre del atributo</td>
+                                    <td>Elementos</td>
+                                    <td>Descripción</td>
+                                </tr>
+                                <tr>
+                                    <td>accept</td>
+                                    <td>&lt;form&gt;, &lt;input&gt;</td>
+                                    <td>Lista de tipos aceptados por el servidor, usualmente un tipo de archivo.</td>
+                                </tr>
+                                <tr>
+                                    <td>accept-charset </td>
+                                    <td>&lt;form&gt;</td>
+                                    <td>Lista de juegos de caracteres soportados.</td>
+                                </tr>
+                                <tr>
+                                    <td>accesskey</td>
+                                    <td>Atributos Globales</td>
+                                    <td>Define una tecla que activa o agrega un foco al elemento.</td>
+                                </tr>
+                                <tr>
+                                    <td>action</td>
+                                    <td>&lt;form&gt;</td>
+                                    <td>La URL del programa que procesa la información enviada en el formulario.</td>
+                                </tr>
+                                <tr>
+                                    <td>align</td>
+                                    <td>&lt;td&gt;, &lt;tfoot&gt; , &lt;th&gt;, &lt;thead&gt;, &lt;tr&gt; ...</td>
+                                    <td>Especifica el alineamiento horizontal del elemento.</td>
+                                </tr>
+                                <tr>
+                                    <td>alt</td>
+                                    <td>&lt;img&gt;, &lt;input&gt;</td>
+                                    <td>Texto alternativo en caso de que la imagen no se pueda mostrar.</td>
+                                </tr>
+                            </table>
+                            <br>
+                            <h3 class="title">Atributos Posibles</h3>
+                            <img src="../fase2/mockup.png">
+                            <p class="title negrita">Imagen 3</p>
+                        </article>
+                    </div>
+
+                    <div class="col-lg-4">
+                        <div class="sidebar">
+                            <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2FUniversidadUNAD&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="340" height="500"
+                                style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer id="footer">
+        <div class="footer-top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 col-md-6 footer-contact">
+                        <h3>Contacto</h3>
+                        <p>
+                            Nombre: Jonny Wilmer Lasso Rios<br> Programa: Ingenieria de Sistemas</br>
+                            Correo Electronico: jwlassor@unadvirtual.edu.co
+                        </p>
+                    </div>
+                    <div class="col-lg-3 col-md-6 footer-contact">
+                        <h3>BIBLIOGRAFÍA</h3>
+                        <p>
+                            <a href="https://www.iebschool.com/blog/que-es-etiqueta-html-analitica-usabilidad/" class="menu">¿Qué es una etiqueta HTML y cuáles son las más importantes?</a><br>
+                            <a href="https://developer.mozilla.org/es/docs/Web/HTML/Attributes" class="menu">Referencia de Atributos HTML</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
